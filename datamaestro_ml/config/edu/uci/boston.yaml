@@ -12,4 +12,8 @@ description:
 
 download: !@/single:File
   url: https://raw.githubusercontent.com/scikit-learn/scikit-learn/master/sklearn/datasets/data/boston_house_prices.csv
+  type: !@/csv:Matrix
+    names-row: 0
+    ignore: 1
+    target: MEDV
   

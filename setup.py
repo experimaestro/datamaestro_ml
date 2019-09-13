@@ -14,7 +14,7 @@ setup(
         '': [ '*.yaml' ]
     },
     install_requires=[
-        'datamaestro'
+        'datamaestro>=0.2'
     ],
     classifiers=[
         'Intended Audience :: Developers',
