@@ -2,7 +2,7 @@ from setuptools import setup, find_namespace_packages
 
 setup(
     name='datamaestro_ml',
-    version='0.1',
+    version='0.1.2',
     description='Machine Learning related datasets',
     author='Benjamin Piwowarski',
     author_email='benjamin@piwowarski.fr',
