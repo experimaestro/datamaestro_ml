@@ -35,6 +35,7 @@ setup(
         'datamaestro.repositories': [
             'ml = datamaestro_ml:Repository'
         ]
+    },
 
-    }
+    test_suite='datamaestro_ml.test'
 )
