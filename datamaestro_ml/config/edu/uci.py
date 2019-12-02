@@ -1,9 +1,9 @@
 from datamaestro.data import Generic
 from datamaestro.data.csv import Matrix
 from datamaestro.definitions import Dataset
-from datamaestro.download.single import DownloadFile
+from datamaestro.download.single import FileDownloader
 
-@DownloadFile("data", url="https://raw.githubusercontent.com/scikit-learn/scikit-learn/master/sklearn/datasets/data/boston_house_prices.csv")
+@FileDownloader("data", url="https://raw.githubusercontent.com/scikit-learn/scikit-learn/master/sklearn/datasets/data/boston_house_prices.csv")
 @Dataset(Generic)
 def boston(data):
   """Boston Housing dataset
@@ -18,6 +18,6 @@ def boston(data):
   the demand for clean air', J. Environ. Economics & Management, vol.5, 81-102,
   1978. """
   return {
-    "data": Matrix(path=data.path, names_row=0, ignore=1, target="MEDV")
+    "data": Matrix(path=data, names_row=0, ignore=1, target="MEDV")
   }
   
