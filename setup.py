@@ -2,12 +2,15 @@ import sys
 try:
     from setuptools import setup, find_namespace_packages
 except ImportError:
-    print("Please upgrade pip: find_namesspace_packages not found")
+    print("Please upgrade pip: find_namespace_packages not found")
     sys.exit(1)
+
+# Date-based versioning
+VERSION='2019.12.04'
 
 setup(
     name='datamaestro_ml',
-    version='0.1.2',
+    version=VERSION,
     description='Machine Learning related datasets',
     author='Benjamin Piwowarski',
     author_email='benjamin@piwowarski.fr',
@@ -19,7 +22,7 @@ setup(
         '': [ '*.yaml' ]
     },
     install_requires=[
-        'datamaestro>=0.2'
+        'datamaestro>=0.5.1'
     ],
     classifiers=[
         'Intended Audience :: Developers',
