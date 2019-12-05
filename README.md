@@ -1,4 +1,4 @@
-# Text-related datasets
+# Image-related datasets
 
 This [datamaestro](https://github.com/bpiwowar/datasets) plugin covers machine-learning related datasets (general purpose). 
 
