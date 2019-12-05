@@ -10,7 +10,7 @@ except ImportError:
 from setuptools.command.install import install
 
 # Date-based versioning
-VERSION='2019.12.4'
+VERSION='2019.12.5'
 
 RE_BLANCK=re.compile(r"^\s*(#.*)?$")
 with (Path(__file__).parent / 'requirements.txt').open() as f:
@@ -58,7 +58,7 @@ setup(
     ],
     entry_points={
         'datamaestro.repositories': [
-            'text = datamaestro_ml:Repository'
+            'ml = datamaestro_ml:Repository'
         ]
     },
     cmdclass={
