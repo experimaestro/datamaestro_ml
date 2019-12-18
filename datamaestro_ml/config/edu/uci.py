@@ -1,10 +1,10 @@
 from datamaestro.data import Generic
 from datamaestro.data.csv import Matrix
-from datamaestro.definitions import Dataset
-from datamaestro.download.single import FileDownloader
+from datamaestro.definitions import dataset
+from datamaestro.download.single import filedownloader
 
-@FileDownloader("data", url="https://raw.githubusercontent.com/scikit-learn/scikit-learn/master/sklearn/datasets/data/boston_house_prices.csv")
-@Dataset(Generic)
+@filedownloader("data", url="https://raw.githubusercontent.com/scikit-learn/scikit-learn/master/sklearn/datasets/data/boston_house_prices.csv")
+@dataset(Generic)
 def boston(data):
   """Boston Housing dataset
   
