@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/experimaestro/datamaestro_ml.svg?style=svg)](https://circleci.com/gh/experimaestro/datamaestro) [![PyPI version](https://badge.fury.io/py/datamaestro-ml.svg)](https://badge.fury.io/py/datamaestro-ml)
+[![PyPI version](https://badge.fury.io/py/datamaestro-ml.svg)](https://badge.fury.io/py/datamaestro-ml)
 
 # Image-related datasets
 
