@@ -6,3 +6,4 @@ site
 dist
 test-reports/
 .tox/
+build/
